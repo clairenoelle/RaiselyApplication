@@ -4,118 +4,51 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="assets/css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300|Libre+Franklin:300" rel="stylesheet">
-    <title>Restaurant Survey</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <title>Claire McCrea Raisely Application</title>
 </head>
 <body>
     <header></header>
     <main>
         <div class="inner">
-            <div class="contentbox">
-                <div class="surveywrapper">
-                    <div class="intro">
-                        <h1 id="title">Survey Form</h1>
-                        <p id="description">
-                            Tell us what you want to see!
+            <div class="content">
+                <ul>
+                    <li class="questions">Why would you be a good fit for the Customer Success Specialist role?</li>
+                        <p class="answers">
+                            I am a hardworking, patient problem-solver who loves making other people’s days better! I have worked remotely for the 
+                            past two years and have completed half of freeCodeCamp.org’s coding curriculum in my free time (and I’m still working through it!), 
+                            so I have the drive and the discipline to suceed in the position. </p>
+                    <li class="questions">Why do you want to work here over somewhere else?</li>
+                        <p class="answers">
+                            I'm passionate about supporting charities and nonprofits— that’s the reason why I chose self-study through freeCodeCamp.org 
+                            instead of paying other for-profit entities to learn how to code. I taught beginning English to refugees in Denver, CO before moving to Asia, 
+                            and I frequently gave free lessons to locals in Thailand and Vietnam during my time there.
                         </p>
-                    </div>
-                    <form action="#" id="survey-form">
-                        <div class="qa">
-                            <label class="q" for="name-label" id="name-label">* Name: </label>
-                            <input type="text" placeholder=" What's your name?" class="a" id="name" required>
-                        </div>
-                        <div class="qa">
-                            <label class="q" for="email-label" id="email-label">* Email: </label>
-                            <input type="email" placeholder=" What's your email?" class="a" id="email" required>
-                        </div>
-                        <div class="qa">
-                            <label class="q" for="number-label" id="number-label">* Age: </label>
-                            <input type="number" min="13" max="120" placeholder=" How old are you?" class="a" id="number" required>
-                        </div>
-                        <div class="qa">
-                            <label class="q" for="">Which option best describes your current role?</label>
-                            <select class="a" id="dropdown" name="employopt">
-                                <option value="empft">Employed Full-Time</option>
-                                <option value="emppt">Employed Part-Time</option>
-                                <option value="hm">Home-Maker</option>
-                                <option value="stud">Student</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="qa">
-                            <legend class="q">How often do you come here?</legend>
-                            <fieldset class="radiowrapper">
-                                <div class="radio">
-                                    <input type="radio" name="frequency" value="1xmonth" id="1xmonth">
-                                    <label for="1xmonth">Once a month or less</label>
-                                </div>
-                                <div class="radio">
-                                    <input type="radio" name="frequency" value="2-4m" id="2-4m">
-                                    <label for="2-4m">2-4x/month</label>
-                                </div>
-                                <div class="radio">
-                                    <input type="radio" name="frequency" value="2-4w" id="2-4w">
-                                    <label for="2-4w">2-4x/week</label>
-                                </div>
-                                <div class="radio">
-                                    <input type="radio" name="frequency" value="2-4w+" id="2-4w+">
-                                    <label for="2-4w+">+ 2-4x/week</label>
-                                </div>
-                            </fieldset>
-                        </div>
-                        <div class="qa">
-                            <label class="q">What do you like best?</label>
-                            <select class="a" name="likebest">
-                                <option value="foodq">Food Quality</option>
-                                <option value="foodv">Food Value</option>
-                                <option value="service">Service</option>
-                                <option value="events">Events</option>
-                                <option value="music">Music</option>
-                                <option value="other">Other</option>
-                            </select>
-                        </div>
-                        <div class="qa">
-                            <legend class="q">What should we improve? (Check all that apply)</legend>
-                            <fieldset class="cbwrapper">
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="foodq" id="foodq">
-                                    <label for="foodq">Food Quality</label>
-                                </div>
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="foodv" id="foodv">
-                                    <label for="foodv">Food Value</label>
-                                </div>
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="service" id="service">
-                                    <label for="service">Service</label>
-                                </div>
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="events" id="events">
-                                    <label for="events">Events</label>
-                                </div>
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="music" id="music">
-                                    <label for="music">Music</label>
-                                </div>
-                                <div class="cb">
-                                    <input type="checkbox" name="improve" value="other" id="other">
-                                    <label for="other">Other (please describe below!)</label>
-                                </div>
-                            </fieldset>
-                        </div>
-                        <div class="qa">
-                            <label class="q">Any comments or suggestions?</label>
-                            <textarea rows="3" cols="20" class="a" placeholder="What would you like to see?" wrap="hard"></textarea>
-                        </div>
-                        <button type="submit" form="survey-form" value="Submit" class="btn-primary" id="submit">
-                            Submit
-                        </button>
-                    </form>
-                </div>
+                    <li class="questions">Look at this list of tasks (https://gist.github.com/tommaitland/193b189f80d15309f4bfc475a3a7e81e) and tell us which two you are excited by, which two you want to learn and the two you don’t want to do.</li>
+                        <p class="answers">
+                            Two things I am excited to learn are how to run a training session with a customer to set up their campaign and how to update the developer 
+                            docs to cover a new release. I love seeing the excitement and ‘click’ of understanding on someone’s face once they feel confident with new information, 
+                            so I would love to use my experience in education to teach new users about all the features of the site. I’d also enjoy talking with developers to 
+                            understand what changes are being made to different areas and why, and then relaying that information via new docs.
+                            
+                            Two things I am not excited about doing are creating content for social media and marketing and coordinating blog posts for the blog. Social media 
+                            work and marketing are simply not my strong suits, and I know there are other people who are skilled in those areas. I would much rather take a 
+                            problem-solving role where I can interact directly with the customers.
+                            
+                            Two things I’m most excited to do are to work with developers to debug and resolve a product issue and to plan new product features based on customer 
+                            feedback. There is little more I enjoy than solving problems and finding ways to make things better, and these two tasks do exactly that! Throughout my 
+                            career, I have always been the ‘fixer’ who ‘makes things happen,’ and it’s a role I relish.
+                        </p>
+                    <li class="questions">Tell us about a company who does customer support well, and why you think they’re good.</li>
+                        <p class="answers">
+                            My bank, Aspiration Bank, handles customer support issues exceedingly well. Their representatives are friendly, well-trained, empathic people who don’t read 
+                            off scripts, and the representatives I have spoken with all seemed to genuinely care about solving the underlying problem. She didn’t seem like 
+                            she was just there to collect a paycheck— she cared about the quality of her work and the reputation of the company she worked for.
+                        </p>
+                </ul>
             </div>
         </div>
     </main>
-    <script src="assets/js/scripts.js"></script>
 </body>
 <footer></footer>
 </html>
