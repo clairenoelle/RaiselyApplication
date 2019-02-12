@@ -171,6 +171,11 @@ div {
     display: flex;
 }
 
+i {
+    font-style: normal;
+    color: #38393b;
+}
+
 .inner {
     display: flex;
     flex-direction: column;
